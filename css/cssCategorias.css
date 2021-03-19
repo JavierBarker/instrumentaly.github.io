@@ -1,0 +1,104 @@
+#cuerpo{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+}
+
+#categorias{
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    border: 3px solid black;
+    background-color: #ffffff;
+    padding: 2%;
+    box-shadow: 0px 0px 90px #000000;
+    text-align: center;
+}
+
+#imagenViento{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+    border: 5px solid black;
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+#imagenPercusion{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+    border: 5px solid black;
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+
+}
+
+#imagenCuerda{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+    border: 5px solid black;
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#texto1{
+    color:black; 
+    text-shadow: 0px 0px 5px black;
+}
+#texto2{
+    color:black; 
+    text-shadow: 0px 0px 5px black;
+}
+#texto3{
+    color:black; 
+    text-shadow: 0px 0px 5px black;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    background-color: #ccb28c;
+}
+
+#imagenViento:hover .img {-webkit-transform:scale(1.3);transform:scale(1.3);filter: opacity(.5);filter: blur(5px);}
+#imagenViento {overflow:hidden;}
+
+#imagenPercusion:hover .img {-webkit-transform:scale(1.3);transform:scale(1.3);filter: opacity(.5);filter: blur(5px);}
+#imagenPercusion {overflow:hidden;}
+
+#imagenCuerda:hover .img {-webkit-transform:scale(1.3);transform:scale(1.3);filter: opacity(.5);filter: blur(5px);}
+#imagenCuerda {overflow:hidden;}
+
+#boton{
+    width: 50%;
+    height: 25px;
+    background-color: #a9561a;
+}
+
+#boton:hover{
+    background-color: #e6833d;
+}
+
+hr{
+    border: 1px solid #803a11;
+}

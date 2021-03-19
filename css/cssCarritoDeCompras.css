@@ -1,0 +1,81 @@
+#cuerpo{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+}
+
+#carrito{
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    border: 3px solid black;
+    background-color: #ffffff;
+    padding: 2%;
+    box-shadow: 0px 0px 90px #000000;
+    text-align: center;
+}
+
+#textoCarrito{
+    width: 80%;
+    height: 60px;
+    float: left;
+}
+
+#imagenCarrito{
+    width: 10%;
+    height: 60px;
+    float: left;
+}
+.carrito1{
+    width: 100%;
+    height: 100%;
+}
+
+#tabla{
+    margin: auto;
+}
+#tabla tr td{
+    padding: 0px 10px;
+    border: 1px solid black;
+}
+
+#fila1{
+    background-color: #e6833d;
+}
+
+.number{
+    width: 30%;
+    text-align: justify;
+}
+
+#comprar{
+    width: 50%;
+    height: 25px;
+    background-color: #1ead11;
+    
+}
+    
+#comprar:hover{
+    background-color: #8af580;
+    margin-left: auto;
+}
+
+
+#boton{
+    width: 50%;
+    height: 25px;
+    background-color: #a9561a;
+}
+
+#boton:hover{
+    background-color: #e6833d;
+}
+
+hr{
+    border: 1px solid #803a11;
+}
